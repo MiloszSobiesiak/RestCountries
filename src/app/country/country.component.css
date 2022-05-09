@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+button{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    border: none;
+    border-radius: 8%;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+
+img{
+    width: 350px;
+}
+
+.main{
+    display: flex;
+    justify-content:center;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.2rem;
+    
+}
+
+.country{
+    position: relative;
+    top:100px;
+}
+
+.desc{
+    font-weight: bolder;
+    font-style: italic; 
+}

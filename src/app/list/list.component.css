@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+img{
+    width: 100px;
+}
+.country{
+    justify-content: center;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    height: 150px;
+}
+.main{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px, 1fr));
+    row-gap: 50px;
+    grid-auto-rows: 100px;
+    padding-top: 50px;
+    font-family: 'Heebo', sans-serif;
+}
+
+button{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    border: none;
+    border-radius: 8%;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.country:hover .text{
+    text-decoration: none;
+}
+    
+.country:hover {
+     transform: scale(1.15);
+}
+a{
+    text-decoration: none;
+    color: black;
+}

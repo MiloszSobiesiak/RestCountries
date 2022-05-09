@@ -1,0 +1,9 @@
+<div class="main" >
+    <div class="country" *ngFor="let country of userdata | async"> 
+        <a [routerLink]="['/country', country.name.common]">
+        <img [src]="country.flags.png"/> <br>
+        {{country.name.common}}
+    </a>
+    </div>
+</div>
+<button onclick="history.back()">Back</button>

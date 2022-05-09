@@ -1,0 +1,11 @@
+<div class="main">
+    <div class="country" *ngFor="let country of userdata | async">
+       <img [src]="country.flags.png"/><br>
+        <span class="desc">Name:  </span>  {{country.name.common}}<br>
+        <span class="desc">Capital:  </span>  {{country.capital[0]}}<br>
+        <span class="desc">Population:  </span> {{country.population}}<br>
+        <span class="desc">Area:  </span>  {{country.area}} km^2<br>
+        <span class="desc">Subregion:  </span> {{country.subregion}}<br>
+    </div>
+</div>
+<button onclick="history.back()">Back</button>
